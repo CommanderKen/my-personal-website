@@ -8,11 +8,11 @@ function Home() {
       <div className='profile-container'>
         <div className='profile-card'>
           <img
-            src="/images/profile.png"
-            alt="Foto Profilo"
+            src="/images/profile.jpg"
+            alt="Profile Picture"
             className='profile-picture'
           />
-          <h1 className='profile-name'>Nome del Programmatore</h1>
+          <h1 className='profile-name'>Name Surname</h1>
           <p className='profile-description'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
             ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
