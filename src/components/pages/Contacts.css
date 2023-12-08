@@ -1,0 +1,78 @@
+.background {
+  background-image: url('../../../public/images/home_background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: calc(100vh - 80px);
+  overflow: hidden;
+}
+
+.contacts-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.contacts-card {
+  background-color: rgba(24, 24, 24, 0.5);
+  padding: 20px;
+  padding-bottom: 35px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.contacts-title {
+  margin-top: 20px;
+  color: #fff;
+}
+
+.contacts-description {
+  margin-top: 20px;
+  max-width: 600px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+}
+
+.mail-icon {
+  position: relative;
+  width: 33px;
+  height: 30px;
+  top: 9px;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 3px;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: #fff;
+  cursor: pointer;
+}
+
+.github-icon {
+  position: relative;
+  width: 33px;
+  top: 9px;
+}
+
+.linkedin-icon {
+  color: #fff;
+  position: relative;
+  width: 33px;
+  top: 9px;
+}
+
+@media screen and (max-width: 960px) {
+  .contacts-card {
+    margin-top: 20px;
+  }
+}
