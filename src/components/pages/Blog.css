@@ -1,0 +1,16 @@
+.background_blog {
+  background-image: url('../../../public/images/home_background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: calc(100vh - 80px);
+  overflow: hidden;
+}
+
+.articleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
