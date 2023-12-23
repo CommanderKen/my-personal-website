@@ -1,4 +1,4 @@
-.background {
+.background-home {
   background-image: url('../../../public/images/home_background.jpg');
   background-size: cover;
   background-position: center;
@@ -13,6 +13,7 @@
   align-items: center;
   padding-left: 10px;
   padding-right: 10px;
+  margin-bottom: 30px;
 }
 
 .profile-card {
@@ -45,7 +46,22 @@
 }
 
 @media screen and (max-width: 960px) {
+  .background-home {
+    min-height: calc(100vh - 80px);
+    height: fit-content !important;
+  }
+
   .profile-card {
-    margin-top: 20px;
+    margin-top: 10px;
+  }
+
+  .profile-name {
+    margin-top: 10px;
+  }
+  
+  .profile-description {
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }

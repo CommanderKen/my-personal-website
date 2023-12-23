@@ -5,10 +5,10 @@ import './Contacts.css';
 
 function Contacts() {
   return (
-    <div className='background'>
+    <div className='background-contacts'>
       <div className='contacts-container'>
         <div className='contacts-card'>
-          <h1 className='contacts-title'>You can find me on:</h1>
+          <h1 className='contacts-title'>I miei contatti:</h1>
           <div className='contacts-description'>
             <span><GoMail className='mail-icon' /></span>
             <a href="mailto:example@mail.com" className='link'>example@mail.com</a>

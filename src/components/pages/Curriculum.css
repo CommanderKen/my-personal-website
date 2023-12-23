@@ -1,4 +1,4 @@
-.background {
+.background-curriculum {
   background-image: url('../../../public/images/home_background.jpg');
   background-size: cover;
   background-position: center;
@@ -23,6 +23,7 @@
   text-align: center;
   margin: 50px;
   cursor: pointer;
+  min-width: 420px;
 }
 
 .curriculum-title {
@@ -38,11 +39,17 @@
 }
 
 @media screen and (max-width: 960px) {
+  .background-curriculum {
+    min-height: calc(100vh - 80px);
+    height: fit-content !important;
+  }
+
   .curriculum-container {
     display: contents;
   }
 
   .curriculum-card {
-    margin: 20px 10px;
+    margin: 10px;
+    min-width: 50px;
   }
 }

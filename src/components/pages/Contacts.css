@@ -1,4 +1,4 @@
-.background {
+.background-contacts {
   background-image: url('../../../public/images/home_background.jpg');
   background-size: cover;
   background-position: center;
@@ -13,6 +13,7 @@
   align-items: center;
   padding-left: 10px;
   padding-right: 10px;
+  margin-bottom: 30px;
 }
 
 .contacts-card {
@@ -72,7 +73,17 @@
 }
 
 @media screen and (max-width: 960px) {
+  .background-contacts {
+    min-height: calc(100vh - 80px);
+    height: fit-content !important;
+  }
+
   .contacts-card {
-    margin-top: 20px;
+    margin-top: 10px;
+  }
+
+  .contacts-description {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
